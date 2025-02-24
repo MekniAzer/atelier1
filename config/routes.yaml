@@ -3,3 +3,6 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+test_ar:
+    path: /afficher/ar
+    controller: App\Controller\testcontroller::tfarej
